@@ -10,4 +10,4 @@ jobs:
 
     steps:
     - name: Run a one-line script
-      run: dpkg -l | grep libcurl
+      run: dpkg -l | grep curl
